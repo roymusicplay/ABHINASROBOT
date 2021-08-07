@@ -74,34 +74,34 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hellow [😊](https://telegraph/file/199685f557f90f7bef272.jpg), I am Tracy  a highly advanced Bot.
+Hellow [😊](https://telegra.ph/file/8c24ea56ae5cd69b321cc.jpg), I am ABHINAS  a highly advanced Bot.
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TRACY TO YOUR GROUP ➕️", url="t.me/TracyRoBot?startgroup=true"),
+            text="➕️ 𝘼𝘽𝙃𝙄𝙉𝘼𝙎 𝙍𝙊𝙔 ➕️", url="t.me/abhinasroy"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="ℹ️ 𝘼𝘽𝙊𝙐𝙏", callback_data="masha_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="💾 𝙑𝘾 𝙋𝙇𝘼𝙔𝙀𝙍", url="t.me/ABHINAS_ROY_420"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/camila_support"
+            text="👥 SUPPORT", url="https://t.me/DOSTI_GROUP_1234"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Tracy🙋‍♀️](https://telegra.ph/file/199685f557f90f7bef272.jpg) 
+`ʜɪ.. ɪ'ᴍ` [ABHINAS🙋‍♀️](https://telegra.ph/file/8c24ea56ae5cd69b321cc.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-shasha_IMG = "https://telegra.ph/file/199685f557f90f7bef272.jpg"
+shasha_IMG = "https://telegra.ph/file/8c24ea56ae5cd69b321cc.jpg"
 
 
 
@@ -358,8 +358,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/War-Legend/TracyRoBot).
-                 If you have any question about Tracy, let us know at @camila_support.""",
+                 Here is the [💾king](t.me/abhinasroy).
+                 If you have any question about Tracy, let us know at @DOSTI_GROUP_1234.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,8 +385,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Tracy*
-                 \nHere is the [Source Code](https://github.com/War-Legend/tracyRoBot) .""",
+            text=""" Hi..🤗 I'm *ABHINAS*
+                 \nHere is the [ABHINAS](t.me/abhinasroy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
